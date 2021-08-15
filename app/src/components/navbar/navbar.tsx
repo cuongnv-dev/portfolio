@@ -29,18 +29,19 @@ export const Navbar = () => {
             </Link>
           </NavLink>
           <NavLink>
-            <Link {...scrollProps} to="about" className="">
-              About
+            <Link {...scrollProps} to="services" className="">
+              Services
             </Link>
           </NavLink>
+
           <NavLink>
             <Link {...scrollProps} to="skills" className="">
               Skills
             </Link>
           </NavLink>
           <NavLink>
-            <Link {...scrollProps} to="services" className="">
-              Services
+            <Link {...scrollProps} to="about" className="">
+              About
             </Link>
           </NavLink>
           <NavLink>

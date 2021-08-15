@@ -31,9 +31,9 @@ function App() {
     <PageContainer>
       <Navbar />
       <HeroSection />
-      <AboutSection />
-      <SkillsSection />
       <ServicesSection />
+      <SkillsSection />
+      <AboutSection />
       <ContactSection />
     </PageContainer>
   );

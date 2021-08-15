@@ -3,7 +3,7 @@ import tw from "twin.macro";
 
 export const HeroContainer = styled.div`
   ${tw`flex flex-col md:flex-row  w-full justify-between  xl:px-48 items-center
-    px-6 py-10`}
+    px-6 py-6 md:py-16`}
 `;
 
 export const LeftContent = styled.div`
@@ -38,22 +38,7 @@ export const Title = styled.div`
 export const DescText = styled.div`
   ${tw`text-sm text-gray-500 dark:text-gray-500  mt-3 lg:pr-32`};
 `;
-export const HighlightGroups = styled.div`
-  ${tw`flex flex-row mt-4 gap-8 text-gray-500 dark:text-gray-500`};
-`;
-
-export const HighlightContent = styled.div`
-  ${tw`flex flex-col items-center font-medium text-xs`};
-`;
-
-export const HighlightCount = styled.div`
-  ${tw`font-semibold  text-xl lg:text-2xl text-gray-700 dark:text-gray-200`};
-`;
-
-export const Text = styled.span`
-  ${tw``};
-`;
 
 export const DownloadButton = styled.button`
-  ${tw`bg-red-500 inline-block flex flex-row items-center text-white text-sm font-medium px-4 py-2 rounded-lg shadow mt-4`};
+  ${tw`bg-red-500 inline-block flex flex-row items-center text-white text-sm font-medium px-4 py-2 rounded-lg shadow mt-6`};
 `;

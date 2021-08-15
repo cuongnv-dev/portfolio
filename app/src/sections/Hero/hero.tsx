@@ -5,16 +5,12 @@ import {
   DescText,
   DownloadButton,
   HeroContainer,
-  HighlightContent,
-  HighlightCount,
-  HighlightGroups,
   Intro,
   LeftContent,
   Name,
   RightContent,
   SocialButton,
   SocialButtonGroups,
-  Text,
   Title,
 } from "./styles";
 
@@ -46,29 +42,12 @@ export const HeroSection = () => {
       <RightContent>
         <Intro>Introduction</Intro>
         <Name>Viet Cuong</Name>
-        <Title>Product Developer and Design, based in VietNam</Title>
+        <Title>Frontend Developer and Design, based in VietNam</Title>
         <DescText>
           With 4+ years of experience in creating and delivering user-centric
           applications and solutions, I look forward to bringing my strong
           creative, technical, and analytical skills to my customers.
         </DescText>
-        <HighlightGroups>
-          <HighlightContent>
-            <HighlightCount>04+</HighlightCount>
-            <Text>Years</Text>
-            <Text>experience</Text>
-          </HighlightContent>
-          <HighlightContent>
-            <HighlightCount>15+</HighlightCount>
-            <Text>Projects</Text>
-            <Text>completed</Text>
-          </HighlightContent>
-          <HighlightContent>
-            <HighlightCount>3+</HighlightCount>
-            <Text>Companies</Text>
-            <Text>worked</Text>
-          </HighlightContent>
-        </HighlightGroups>
         <DownloadButton>
           <a
             download=""

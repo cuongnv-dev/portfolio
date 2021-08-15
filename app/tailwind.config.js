@@ -4,7 +4,7 @@ const colors = {
   ...defaultColors,
   ...{
     "black-dark": "#232B35",
-    "black-darker": "##1F2731",
+    "black-darker": "#1F2731",
   },
 };
 
