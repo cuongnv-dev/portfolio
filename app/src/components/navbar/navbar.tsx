@@ -40,11 +40,6 @@ export const Navbar = () => {
             </Link>
           </NavLink>
           <NavLink>
-            <Link {...scrollProps} to="about" className="">
-              About
-            </Link>
-          </NavLink>
-          <NavLink>
             <Link {...scrollProps} to="portfolio" className="">
               Portfolio
             </Link>

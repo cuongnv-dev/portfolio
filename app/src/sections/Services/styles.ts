@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 export const ServicesContainer = styled.div`
-  ${tw`w-full xl:px-48 px-6 py-8 md:py-14 bg-white dark:bg-black-darker`};
+  ${tw`w-full xl:px-48 px-6 py-8 md:py-24 bg-white dark:bg-black-darker`};
 `;
 
 export const HeaderContainer = styled.div`
@@ -10,11 +10,11 @@ export const HeaderContainer = styled.div`
 `;
 
 export const SectionName = styled.span`
-  ${tw`font-medium text-base border-b-2 border-gray-700 dark:border-gray-500`};
+  ${tw`font-medium text-3xl`};
 `;
 
 export const SectionDesc = styled.div`
-  ${tw`mt-4 font-medium text-3xl`};
+  ${tw`mt-2 font-medium text-sm`};
 `;
 
 export const ServicesRow = styled.div`
